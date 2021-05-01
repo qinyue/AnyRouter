@@ -1,0 +1,27 @@
+PODS:
+  - AnyRouter (0.0.1):
+    - AnyRouter/Core (= 0.0.1)
+    - AnyRouter/Loader (= 0.0.1)
+  - AnyRouter/Core (0.0.1)
+  - AnyRouter/Loader (0.0.1):
+    - AnyRouter/Core
+  - ModuleDemo (0.0.1):
+    - AnyRouter
+
+DEPENDENCIES:
+  - AnyRouter (from `../`)
+  - ModuleDemo (from `../`)
+
+EXTERNAL SOURCES:
+  AnyRouter:
+    :path: "../"
+  ModuleDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnyRouter: 9037c85aa2a5553adf9171b2201cf384af804ffb
+  ModuleDemo: 6f632a4f1fe3b400fda8518eed215942b450951e
+
+PODFILE CHECKSUM: bf3c9df31f14eb94580da9ba792e7f74ccf9814c
+
+COCOAPODS: 1.5.2

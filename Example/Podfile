@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AnyRouter_Example' do
+  pod 'AnyRouter', :path => '../'
+  pod 'ModuleDemo', :path => '../'
+
+  target 'AnyRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
